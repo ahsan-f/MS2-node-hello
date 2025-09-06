@@ -1,0 +1,19 @@
+{
+  "name": "node-hello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"nothing to build for hello world\"",
+    "test": "jest --runInBand",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.9.0",
+    "globals": "^16.3.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
