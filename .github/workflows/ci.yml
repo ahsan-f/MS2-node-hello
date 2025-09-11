@@ -37,5 +37,5 @@ jobs:
         env:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
             SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-            SONAR_PROJECT_KEY: ahsan-f_MS2-node-hello # Use your project key here
-            SONAR_ORGANIZATION: ahsan-f # Use your organization here
+            SONAR.PROJECTKEY: ahsan-f_MS2-node-hello # Use your project key here
+            SONAR.ORGANIZATION: ahsan-f # Use your organization here
