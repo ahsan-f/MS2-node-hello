@@ -34,8 +34,8 @@ jobs:
           fetch-depth: 0 # required for SonarQube analysis
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@master
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-          SONAR_PROJECT_KEY: ahsan-f_MS2-node-hello # Use your project key here
-          SONAR_ORGANIZATION: ahsan-f # Use your organization here
+          env:
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+            SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+            SONAR_PROJECT_KEY: ahsan-f_MS2-node-hello # Use your project key here
+            SONAR_ORGANIZATION: ahsan-f # Use your organization here
