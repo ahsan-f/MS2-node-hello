@@ -1,3 +1,4 @@
+# Node.js CI
 name: Node.js CI
 
 on:
@@ -36,6 +37,5 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-          SONAR_PROJECT_KEY: ahsan-f_MS2-node-hello
-          SONAR_ORGANIZATION: ahsan-f
-  
+          SONAR_PROJECT_KEY: ahsan-f_MS2-node-hello # Use your project key here
+          SONAR_ORGANIZATION: ahsan-f # Use your organization here
